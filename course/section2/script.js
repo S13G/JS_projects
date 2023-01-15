@@ -178,7 +178,6 @@ console.log(jonas)
 // Challenge
 
 console.log(`Jonas has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`)
- */
 
 const jonas = {
     firstName: 'Jonas',
@@ -207,3 +206,22 @@ const jonas = {
 // console.log(jonas["calcAge"](jonas.birthYear))
 
 console.log(jonas.getSummary())
+
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifting weights repetition ${rep}`)
+}
+ */
+
+const jonas = [
+    'Jonas',
+    'Sieg',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven']
+]
+
+const types = []
+
+for (let i = 0; i < 5; i++) {
+    console.log(jonas[i], typeof jonas[i])
+}
